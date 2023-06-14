@@ -1,0 +1,162 @@
+/*Comon stayles*/
+body {
+  font-family: Roboto, Releway, sans-serif;
+  color: #000;
+  background-color: #ffffff;
+}
+/* Reset */
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+/**
+  |============================
+  | Header stayles
+  |============================
+*/
+.header {
+}
+.header-nav {
+}
+.header-logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.header-logo-black {
+  font-style: normal;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-contacts {
+}
+.header-contacts-list {
+}
+.header-contacts-item {
+}
+.header-contacts-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/**
+  |============================
+  | Main stayles
+  |============================
+*/
+.main {
+}
+.hero {
+}
+.hero-title {
+}
+.hero-btn {
+}
+.feature {
+}
+.feature-title {
+}
+.feature-list {
+}
+.feature-item {
+}
+.feature-subtitle {
+}
+.feature-text {
+}
+.works {
+}
+.works-title {
+}
+.works-list {
+}
+.works-item {
+}
+.works-img {
+}
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-icon {
+}
+.team-subtitle {
+}
+.team-text {
+}
+/**
+  |============================
+  | Portfolio stayles
+  |============================
+*/
+.portfolio-main {
+}
+.portfolio-section {
+}
+.portfolio-hero {
+}
+.portfolio-list-btn {
+}
+.portfolio-item-btn {
+}
+.portfolio-btn {
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-link {
+}
+.portfolio-icon {
+}
+.portfolio-title {
+}
+.portfolio-text {
+}
+/**
+  |============================
+  | Footer stayles
+  |============================
+*/
+.footer {
+}
+.footer-logo {
+}
+.footer-logo-white {
+}
+.footer-text {
+}
