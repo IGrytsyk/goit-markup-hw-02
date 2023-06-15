@@ -19,7 +19,9 @@ body {
   color: #2e2f42;
   background-color: var(--white-bgr);
 }
-.list,ul,ol{
+.list,
+ul,
+ol {
   list-style: none;
 }
 /**
@@ -199,11 +201,19 @@ body {
 .portfolio-item-btn {
 }
 .portfolio-btn {
-  color: var(--lightgrey-bgr);
+  background-color: var(--lightgrey-bgr);
+  color: #4D5AE5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
 }
 .portfolio-btn-active:hover,
 .portfolio-btn-active:focus {
-  color: #404bbf;
+  background-color: #404BBF;
+  color: #FFFFFF;
 }
 .portfolio-list {
 }
@@ -231,7 +241,7 @@ body {
   |============================
 */
 .footer {
-  background-color: var(--dark-bgr);;
+  background-color: var(--dark-bgr);
 }
 .footer-logo {
   font-weight: 800;
