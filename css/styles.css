@@ -17,15 +17,17 @@
 */
 body {
   font-family: 'Roboto', sans-serif;
-  color: --text-font-color;
+  color: #434455;
   background-color: var(--white-bgr);
+  color: var(--text-font-color);
 }
 .list,
 ul,
 ol {
   list-style: none;
 }
-.link a {
+.link,
+a {
   text-decoration: none;
 }
 /**
@@ -50,6 +52,9 @@ ol {
   font-style: normal;
   text-transform: uppercase;
   color: #2e2f42;
+}
+.header-logo-link{
+  text-decoration: none;
 }
 .header-list {
 }
@@ -106,7 +111,7 @@ ol {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center
+  text-align: center;
   letter-spacing: 0.02em;
   color: var(--titlelight-font-color);
 }
@@ -114,7 +119,7 @@ ol {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center
+  text-align: center;
   letter-spacing: 0.04em;
   cursor: pointer;
   color: var(--titlelight-font-color);
@@ -135,12 +140,12 @@ ol {
 .feature-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.20;
   letter-spacing: 0.02em;
 }
 .feature-text {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.50;
   letter-spacing: 0.02em;
   color: var(--text-font-color);
 }
@@ -161,7 +166,7 @@ ol {
 .works-img {
 }
 .team {
-  background-color: #FFFFFF;
+  background-color:#F4F4FD;
 }
 .team-title {
   font-weight: 700;
@@ -170,8 +175,10 @@ ol {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--text-dark-color);
 }
 .team-list {
+  background-color: #FFFFFF;
 }
 .team-item {
 }
@@ -182,10 +189,11 @@ ol {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--text-dark-color);
 }
 .team-text {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.50;
   letter-spacing: 0.02em;
   color: var(--text-font-color);
 }
@@ -246,6 +254,7 @@ ol {
 */
 .footer {
   background-color: var(--dark-bgr);
+  text-decoration: none;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
