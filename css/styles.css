@@ -1,21 +1,23 @@
-/*Comon stayles*/
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --link-font: 'Raleway', sans-serif;
+  --white-bgr: #ffffff;
+  --dark-bgr: #2e2f42;
+  --lightgrey-bgr: #f4f4fd;
+  --text-font-color: #434455;
+  --titlelight-font-color: #ffffff;
+  --textlight-font-color: #f4f4fd;
+  --focus-color: #4d5ae5;
+}
+/**
+  |============================
+  | Comon stayles
+  |============================
+*/
 body {
-  font-family: Roboto, Releway, sans-serif;
-  color: #000;
-  background-color: #ffffff;
-}
-/* Reset */
-ul,
-ol {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-  color: currentColor;
-}
-button {
-  font-family: inherit;
-  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+  background-color: var(--white-bgr);
 }
 /**
   |============================
@@ -27,11 +29,10 @@ button {
 .header-nav {
 }
 .header-logo {
-  font-family: 'Raleway';
-  font-style: normal;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -46,13 +47,16 @@ button {
 .header-item {
 }
 .header-link {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.header-link-active:hover,
+.header-link-active:focus {
+  color: var(--focus-color);
+  text-decoration: underline;
 }
 .header-contacts {
 }
@@ -61,14 +65,23 @@ button {
 .header-contacts-item {
 }
 .header-contacts-link {
-  font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: #434455;
 }
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--focus-color);
+  text-decoration: underline;
+}
+/**
+  |============================
+  | Base stayles
+  |============================
+*/
 /**
   |============================
   | Main stayles
@@ -77,10 +90,28 @@ button {
 .main {
 }
 .hero {
+  background-color: var(--dark-bgr);
 }
 .hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--titlelight-font-color);
 }
 .hero-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--titlelight-font-color);
+  background-color: #4d5ae5;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 .feature {
 }
@@ -91,12 +122,26 @@ button {
 .feature-item {
 }
 .feature-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .feature-text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--text-font-color);
 }
 .works {
 }
 .works-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .works-list {
 }
@@ -105,8 +150,15 @@ button {
 .works-img {
 }
 .team {
+  background-color: var(--lightgrey-bgr);
 }
 .team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .team-list {
 }
@@ -115,8 +167,18 @@ button {
 .team-icon {
 }
 .team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--text-font-color);
 }
 /**
   |============================
@@ -134,6 +196,11 @@ button {
 .portfolio-item-btn {
 }
 .portfolio-btn {
+  color: var(--lightgrey-bgr);
+}
+.portfolio-btn-active:hover,
+.portfolio-btn-active:focus {
+  color: #404bbf;
 }
 .portfolio-list {
 }
@@ -144,8 +211,16 @@ button {
 .portfolio-icon {
 }
 .portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-font-color);
 }
 /**
   |============================
@@ -155,8 +230,26 @@ button {
 .footer {
 }
 .footer-logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 .footer-logo-white {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 .footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
