@@ -19,6 +19,9 @@ body {
   color: #2e2f42;
   background-color: var(--white-bgr);
 }
+.list,ul,ol{
+  list-style: none;
+}
 /**
   |============================
   | Header stayles
@@ -228,6 +231,7 @@ body {
   |============================
 */
 .footer {
+  background-color: var(--dark-bgr);;
 }
 .footer-logo {
   font-weight: 800;
