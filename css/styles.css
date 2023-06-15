@@ -8,6 +8,7 @@
   --titlelight-font-color: #ffffff;
   --textlight-font-color: #f4f4fd;
   --focus-color: #4d5ae5;
+  --text-dark-color: #2e2f42;
 }
 /**
   |============================
@@ -16,13 +17,16 @@
 */
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
+  color: --text-font-color;
   background-color: var(--white-bgr);
 }
 .list,
 ul,
 ol {
   list-style: none;
+}
+.link a {
+  text-decoration: none;
 }
 /**
   |============================
@@ -56,21 +60,22 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--text-dark-color);
 }
 .header-link-active:hover,
 .header-link-active:focus {
-  color: var(--focus-color);
+  color: #404bbf;
   text-decoration: underline;
 }
 .header-contacts {
+  font-style: normal;
 }
 .header-contacts-list {
+  list-style: none;
 }
 .header-contacts-item {
 }
 .header-contacts-link {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -79,7 +84,7 @@ ol {
 }
 .header-contacts-link:hover,
 .header-contacts-link:focus {
-  color: var(--focus-color);
+  color: #404bbf; 
   text-decoration: underline;
 }
 /**
@@ -101,7 +106,7 @@ ol {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
+  text-align: center
   letter-spacing: 0.02em;
   color: var(--titlelight-font-color);
 }
@@ -109,8 +114,9 @@ ol {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
+  text-align: center
   letter-spacing: 0.04em;
+  cursor: pointer;
   color: var(--titlelight-font-color);
   background-color: #4d5ae5;
 }
@@ -143,8 +149,8 @@ ol {
 .works-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
   text-align: center;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -155,13 +161,13 @@ ol {
 .works-img {
 }
 .team {
-  background-color: var(--lightgrey-bgr);
+  background-color: #FFFFFF;
 }
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
   text-align: center;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -175,13 +181,11 @@ ol {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
   letter-spacing: 0.02em;
 }
 .team-text {
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--text-font-color);
 }
@@ -206,9 +210,8 @@ ol {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .portfolio-btn-active:hover,
 .portfolio-btn-active:focus {
@@ -228,12 +231,13 @@ ol {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--text-dark-color);
 }
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-font-color);
+  color:var(--text-font-color);
 }
 /**
   |============================
@@ -244,19 +248,19 @@ ol {
   background-color: var(--dark-bgr);
 }
 .footer-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
 .footer-logo-white {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
