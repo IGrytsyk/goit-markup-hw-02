@@ -66,7 +66,7 @@ ol {
 }
 .header-link-active:hover,
 .header-link-active:focus {
-  color: color: #404bbf;
+  color:#404bbf;
   text-decoration: underline;
 }
 .header-contacts {
@@ -222,8 +222,8 @@ ol {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.portfolio-btn-active:hover,
-.portfolio-btn-active:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
   background-color: #404BBF;
   color: #FFFFFF;
 }
