@@ -64,8 +64,8 @@ ol {
   letter-spacing: 0.02em;
   color: var(--text-dark-color);
 }
-.header-link-active:hover,
-.header-link-active:focus {
+.header-link:hover,
+.header-link:focus {
   color:#404bbf;
   text-decoration: underline;
 }
